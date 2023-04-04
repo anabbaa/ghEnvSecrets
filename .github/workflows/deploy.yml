@@ -30,8 +30,7 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Output information
-        run: |
-        echo "MONGODB_USERNaAME: ${{ env.MONGODB_USERNaAME}}"
+        run: echo "MONGODB_USERNaAME: ${{ env.MONGODB_USERNaAME}}"
   deploy:
     needs: test
     runs-on: ubuntu-latest
