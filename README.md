@@ -9,4 +9,4 @@
 - if you have organization account you can store them in organization level
 - you can go to your reposoitory setting under security actions secrets you cam add them name it and gives it a value
 - you can add your serets to environment in your repository setting under environment only if your repo is public you attach them to your repo and workflow job can reference to them you can also add more protection rules
-  - create new environment you can add specific secrets to it then add environment reserved word to your job and write as a value its name you can add reviewers timer and choose which branch will use them
+  - create new environment you can add specific secrets to it then add environment reserved word to your job and write as a value its name you can add reviewers timer and choose which branch will use them n
